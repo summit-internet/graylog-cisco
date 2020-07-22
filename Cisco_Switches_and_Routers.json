@@ -1067,7 +1067,7 @@
             "configuration": {
               "grok_pattern": {
                 "@type": "string",
-                "@value": "%{CISCO_MNEMONIC_FIRSTPART}-"
+                "@value": "^*.: %%{CISCO_MNEMONIC_FIRSTPART}-"
               }
             },
             "source_field": {
